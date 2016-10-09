@@ -141,7 +141,6 @@ def take_test(exam, student):
     """
 
     student.score = exam.administer()
-    print student.score
     return student.score
 
 def example():
@@ -157,6 +156,9 @@ def example():
     student = Student("Nicole", "Negri", "SF")
 
     take_test(exam, student)
+    # As is, this function will not return the score. It will if I add return
+    # before the take_test function call. I left it out as the instructions
+    # did not specify that calling example() should return the score.
 
 def quiz_example():
     """Function that tests the Classes, methods and functions in this 
