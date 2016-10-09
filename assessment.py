@@ -39,6 +39,8 @@ class Student(object):
     """A student taking an exam or quiz."""
 
     def __init__(self, first_name, last_name, address):
+        """When a Student object is instantiated, a first_name, last_name
+        and address are assigned as attributes."""
         self.first_name = first_name
         self.last_name = last_name
         self.address = address
