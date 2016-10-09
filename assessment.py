@@ -141,6 +141,7 @@ def take_test(exam, student):
     """
 
     student.score = exam.administer()
+    print student.score
     return student.score
 
 def example():
