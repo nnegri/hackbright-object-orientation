@@ -173,5 +173,3 @@ def quiz_example():
 
     take_test(quiz, student)
 
-example()
-quiz_example()
